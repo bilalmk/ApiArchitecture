@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DB\**" />
+    <Content Remove="DB\**" />
+    <EmbeddedResource Remove="DB\**" />
+    <None Remove="DB\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Controllers\__CategoryController.cs" />
   </ItemGroup>
 

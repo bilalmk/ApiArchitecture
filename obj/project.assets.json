@@ -1122,23 +1122,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bilal.khan\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Ziepie\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\ziepie\\APIArchitecture\\APIArchitecture.csproj",
+      "projectUniqueName": "E:\\ZIEPIE\\ApiArchitecture\\APIArchitecture.csproj",
       "projectName": "APIArchitecture",
-      "projectPath": "G:\\ziepie\\APIArchitecture\\APIArchitecture.csproj",
-      "packagesPath": "C:\\Users\\bilal.khan\\.nuget\\packages\\",
-      "outputPath": "G:\\ziepie\\APIArchitecture\\obj\\",
+      "projectPath": "E:\\ZIEPIE\\ApiArchitecture\\APIArchitecture.csproj",
+      "packagesPath": "C:\\Users\\Ziepie\\.nuget\\packages\\",
+      "outputPath": "E:\\ZIEPIE\\ApiArchitecture\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\bilal.khan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ziepie\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1195,7 +1191,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

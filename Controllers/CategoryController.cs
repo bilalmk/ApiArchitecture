@@ -1,10 +1,13 @@
 ﻿using APIArchitecture.Entities;
+using APIArchitecture.Extension;
 using APIArchitecture.Repository;
+using APIArchitecture.Repository.MySQL;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using static APIArchitecture.DTOs.CategoryDTOs;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -23,9 +26,9 @@ namespace APIArchitecture.Controllers
 
         // GET: api/<CategoryController>
         [HttpGet]
-        public IEnumerable<Category> Get()
+        public IEnumerable<CategoryDTO> Get()
         {
-            var Category = categoryRepository.GetAll();
+            var Category = (categoryRepository.GetAll()).Select(item=>item.asCategoryDto());
             return Category;
         }
 

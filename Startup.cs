@@ -1,5 +1,4 @@
-using APIArchitecture.DB.MYSQL;
-using APIArchitecture.Repository;
+using APIArchitecture.Repository.MySQL;
 using APIArchitecture.Settings;
 using Del;
 using Microsoft.AspNetCore.Builder;
@@ -42,7 +41,7 @@ namespace APIArchitecture
 
             services.AddSingleton<IDataAccess, MySqlDataAccess>();
 
-            services.AddSingleton<IDBCategory, DBCategory>();
+            //services.AddSingleton<IDBCategory, DBCategory>();
             services.AddSingleton<ICategoryRepository, CategoryRepository>();
             services.AddSwaggerGen(c =>
             {

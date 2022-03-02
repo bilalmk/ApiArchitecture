@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 
 namespace APIArchitecture.DTOs
 {
-    public class CategoryDTO
+    public class CategoryDTOs
     {
+        public record CategoryDTO(UInt32 ID,string Name,string Description,int TypeID,int Status,DateTimeOffset CreatedDateTime,DateTimeOffset UpdatedDateTime);
     }
 }

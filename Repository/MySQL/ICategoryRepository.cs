@@ -1,7 +1,7 @@
 ﻿using APIArchitecture.Entities;
 using System.Collections.Generic;
 
-namespace APIArchitecture.Repository
+namespace APIArchitecture.Repository.MySQL
 {
     public interface ICategoryRepository
     {
